@@ -14,7 +14,8 @@ body{
 
 .dim-text {
     color: #6E767D;
-    font-size: 11px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 h4#bottom_link {
@@ -135,9 +136,9 @@ table.funtab th:hover{
 
 
 ul.navbar_list li {
-    font-size: 36px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 ul.navbar_list li:hover {
@@ -146,4 +147,68 @@ ul.navbar_list li:hover {
     width: fit-content;
     border-radius: 12px;
     cursor: pointer;
+}
+
+button.tweet_btn {
+    color: #D9D9D9;
+    background-color: #1DA1F2;
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 48px;
+    font-size: x-large;
+    border: none;
+}
+
+.widgetmult:hover{
+    cursor: pointer;
+}
+
+.tofollow {
+    margin-top: 30px;
+    margin-left: 0px;
+    padding: 10px 10px 0px 10px;
+    background-color: #15181C;
+    border-radius: 12px;
+    border: 2px solid #15181C;
+}
+
+button.follow_btn {
+    margin-left: 18px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+button.follow_btn:hover {
+    background-color: #1C2C38;
+}
+
+.followitem {
+    padding: 10px 0px 10px 10px;
+    border-top: 1px solid #6E767D;
+}
+
+.followitem:hover {
+    background-color: #1C1F23;
+    cursor: pointer;
+}
+
+
+.followtitle {
+    font-size: medium;
+    font-weight: 750;
+}
+
+.followtitle:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.followtitcat {
+    color: #51575E;
+    font-size: medium;
+    margin-top: -5px;
 }
