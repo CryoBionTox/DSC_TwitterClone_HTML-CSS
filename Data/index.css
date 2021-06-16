@@ -1,15 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{ 
     background-color: #000000;
     color: #D9D9D9;
     font-family: Helvetica Neue;
     overflow: none;
 }
-.container {
-    padding: 0px 0px;
-}
 
 #bg_img img {
-    width: 782px;    
+    width: 768px;    
   }
 
 .dim-text {
